@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-# Upload directory
+# Upload directory   
 BASE_DIR = Path(__file__).resolve().parent.parent
 UPLOAD_DIR = BASE_DIR / "static" / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
